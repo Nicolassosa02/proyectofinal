@@ -1,0 +1,417 @@
+@charset "UTF-8";
+/*generla*/
+body {
+  background-color: black;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pieDePagina {
+  text-align: center;
+  font-size: 15px;
+}
+
+.barraDeNav {
+  display: flex;
+  align-items: end;
+}
+
+/*fin del general*/
+/*Cosas geneericas*/
+.centrado {
+  text-align: center;
+}
+
+.gris {
+  color: gray;
+}
+
+.negrita {
+  font-weight: 700;
+}
+
+/*index*/
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  padding: 3px;
+  border-radius: 15px;
+  border-color: white;
+}
+
+.botonContactanos {
+  background-color: black;
+}
+
+.botonContactanos-blue {
+  background-color: rgb(0, 4, 255);
+  transition: all 0.5s;
+}
+
+.botonContactanos-blue:hover {
+  background-color: black;
+}
+
+.tituloIdex {
+  font-size: 30px;
+  text-decoration: underline rgb(0, 4, 255);
+}
+
+.formularioIdex {
+  background-color: gray;
+  color: white;
+  border-radius: 50px;
+  width: 75%;
+}
+
+.botonEnviar {
+  margin-top: 15px;
+  background-color: white;
+  border-color: black;
+}
+
+.mensaje {
+  height: 100px;
+  border-radius: 10px;
+}
+
+.contactoIndex {
+  background-color: white;
+  border-radius: 40px;
+  padding: 40px;
+}
+
+.inicio {
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 24% 24% 5% 24% 24%;
+  grid-template-areas: "a0 a1 a a2 a3";
+}
+
+.incio1 {
+  grid-area: a1;
+}
+
+.incio2 {
+  text-align: center;
+  grid-area: a2;
+  background-color: rgb(0, 4, 255);
+  border-radius: 40px;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+
+.crecer {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1% 32% 1% 32% 1% 32% 1%;
+  grid-template-areas: "a0 a1 a4 a2 a5 a3 a6";
+}
+
+.crecerLista1 {
+  border: solid 3px;
+  border-color: rgb(0, 4, 255);
+  border-radius: 10px;
+  grid-area: a1;
+  padding: 0 10px 0 10px;
+}
+
+.crecerLista2 {
+  border: solid 3px;
+  border-color: rgb(0, 4, 255);
+  border-radius: 10px;
+  grid-area: a2;
+  padding: 0 10px 0 10px;
+}
+
+.crecerLista3 {
+  border: solid 3px;
+  border-color: rgb(0, 4, 255);
+  border-radius: 10px;
+  grid-area: a3;
+  padding: 0 10px 0 10px;
+}
+
+.teAyudamos {
+  padding-top: 40px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1% 32% 1% 32% 1% 32% 1%;
+  grid-template-areas: "a0 a1 a4 a2 a5 a3 a6";
+}
+
+.contenedor1 {
+  grid-area: a1;
+  border: solid 3px;
+  border-color: rgb(0, 4, 255);
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.contenedor2 {
+  grid-area: a2;
+  border: solid 3px;
+  border-color: rgb(0, 4, 255);
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.contenedor3 {
+  grid-area: a3;
+  border: solid 3px;
+  border-color: rgb(0, 4, 255);
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.numero {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(0, 4, 255);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.proseguir {
+  margin-top: 40px;
+}
+
+.precios {
+  display: grid;
+  grid-template-rows: 100% 15px;
+  grid-template-columns: 5% 45% 45% 5%;
+  grid-template-areas: "a0 a1 a2 a3" "a4 a4 a4 a4";
+}
+
+.precios1 {
+  grid-area: a1;
+  border-radius: 100px 0 0 100px;
+  background-color: white;
+  color: black;
+}
+
+.precios2 {
+  grid-area: a2;
+  text-align: center;
+}
+
+.preciosp {
+  margin-left: 25px;
+}
+
+.totalPrecio {
+  margin-top: 25px;
+}
+
+.contactanos {
+  background-color: rgb(0, 4, 255);
+  color: white;
+  transition: all 0.5s;
+}
+
+.contactanos:hover {
+  background-color: black;
+}
+
+.contratar {
+  background-color: rgb(0, 255, 0);
+  color: black;
+  transition: all 0.5s;
+}
+
+.contratar:hover {
+  background-color: black;
+  color: white;
+}
+
+.elegirnos {
+  border-radius: 50px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 33.5%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "a1 a2" "a1 a3" "a1 a4";
+}
+
+.elegir1 {
+  margin-bottom: 0;
+  grid-area: a1;
+  background-color: black;
+}
+
+.elegir2 {
+  color: black;
+  grid-area: a2;
+  padding: 10px 25px 15px 25px;
+}
+
+.elegir3 {
+  color: black;
+  grid-area: a3;
+  padding: 0 25px 0 25px;
+}
+
+.elegir4 {
+  color: black;
+  grid-area: a4;
+  padding: 0 25px 15px 25px;
+}
+
+table {
+  margin-left: 20%;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: rgb(0, 4, 255);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+tbody {
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.botonesDeServicio {
+  margin-left: 40%;
+}
+
+.notificaciones {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.notificacion {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  margin: 0 10px;
+}
+
+/* Estilo para las notificaciones */
+.notificacion {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.notificacion.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.notificacion.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.notificacion.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Estilo para formularios dinámicos */
+.formulario-dinamico {
+  margin: 20px;
+}
+
+.formulario-dinamico input, .formulario-dinamico button {
+  margin: 10px 0;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+}
+
+/*fin del index*/
+
+/*# sourceMappingURL=styles.css.map */

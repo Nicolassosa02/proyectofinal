@@ -1,0 +1,5 @@
+[
+    { "nombre": "Página web", "precio": 2900, "cantidad": 1 },
+    { "nombre": "Tienda Online", "precio": 4500, "cantidad": 1 },
+    { "nombre": "Mantenimiento", "precio": 1200, "cantidad": 1 }
+]
